@@ -149,7 +149,7 @@
 zsh и oh-my-zsh сделают работу в консоли во много раз удобнее
 
 1. `sudo apt install zsh`
-2. `sudo apt install curl wget`
+2. `sudo apt install curl wget git`
 3. `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 #### Atom
