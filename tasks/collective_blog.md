@@ -224,4 +224,71 @@ Foreman позволяет удобно работать с переменным
 
 Передайте эти заготовки данных в шаблоны и выведите их, используя возможности ejs.
 
+### Procfile
+
+Создайте файл Procfile и напишите туда следующее:
+
+```
+web: node your_entry_point.js
+```
+
+Где `your_entry_point.js` - имя файла с сервером
+
+Проверьте, запустив команду `foreman start`. Если сервер запустился - значит всё ок. В дальнейшем запускайте сервер только через эту команду.
+
+### Docker и docker-compose
+
+1. Установите Docker
+
+2. Установите последнюю версию docker-compose отсюда: https://github.com/docker/compose/releases
+
+Создайте файл docker-compose.yml со следующим содержимым:
+
+```
+version: '2'
+services:
+  postgres:
+    image: postgres:9.6.2
+    ports:
+      - 5432:5432
+```
+
+И запустите `docker-compose up`
+
+По итогу вы получите запущенный сервер PostgreSQL. Запускайте эту команду в отдельном окне перед запуском сервера приложения.
+
+### Sequelize
+
+1. Локально установите пакет sequelize
+
+2. Глобально установите sequelize-cli
+
+3. Запустите `sequelize init`
+
+4. Приведите файл `config/config.json` в следующий вид:
+
+```
+{
+  "development": {
+    "use_env_variable": "DATABASE_URL"
+  },
+  "test": {
+    "use_env_variable": "DATABASE_URL"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
+```
+
+Затем, создайте файл `.env`, добавьте его в .gitignore, и напишите в нем следующее:
+
+```
+DATABASE_URL=postgres://postgres@localhost/blog
+```
+
+Этим мы скажем sequelize по какому адресу подключаться к БД
+
+Файл .env нужен для удобной работы с переменными окружения, иначе бы их пришлось либо прописывать глобально, либо каждый раз подгружать из файла.
+
 ### More: Coming Soon...
