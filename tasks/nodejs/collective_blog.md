@@ -2,10 +2,10 @@
 
 Разработать простой коллективный блог по типу habrahabr.ru
 
-## Обязательные технологии
+## Используемые технологии
 
-* Node.js 8.2, **ОБЯЗАТЕЛЬНО** использовать async и await
-* Bootstrap 3
+* Node.js 8.9, **ОБЯЗАТЕЛЬНО** использовать async и await
+* Bootstrap 4
 * PostgreSQL и Sequelize
 * EJS
 * Passport.js
@@ -170,7 +170,7 @@ https://github.com/nodesource/distributions
 Foreman позволяет удобно работать с переменными окружения, задавая их в файле `.env`
 
 1. `sudo apt install ruby`
-2. `gem install foreman` (либо `sudo gem install foreman`, если предыдущая команда падает с ошибкой доступа)
+2. `gem install foreman` (с `sudo`, если предыдущая команда падает с ошибкой доступа)
 
 #### Регистрация на github, rsa-ключ
 
@@ -349,4 +349,6 @@ DATABASE_URL=postgres://postgres@localhost/blog
 
 На этом, вроде как, всё (:
 
-### More: Coming Soon...
+### Heroku
+
+Разверните проект на Heroku, следуя туториалу на их сайте

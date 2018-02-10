@@ -4,7 +4,17 @@
 
 # Задания
 
-* [Коллективный блог](tasks/collective_blog.md)
+## Любой язык
+
+* [Реализовать паттерны Publisher/Subscriber и Observer](tasks/common/pubsub_and_observer.md)
+
+## Ruby
+
+* [Коллективный блог](tasks/ruby/collective_blog.md)
+
+## Node.js
+
+* [Коллективный блог](tasks/nodejs/collective_blog.md)
 
 # Курсы
 
