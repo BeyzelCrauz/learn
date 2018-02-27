@@ -16,6 +16,10 @@
 
 * [Коллективный блог](tasks/nodejs/collective_blog.md)
 
+## Python
+
+* [Коллективный блог](tasks/python/collective_blog.md)
+
 # Курсы
 
 Подборка бесплатных курсов по программированию и не только
