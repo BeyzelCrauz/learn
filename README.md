@@ -22,11 +22,11 @@
 
 ## ReactJS
 
-* [Фронтенд для Youtube](tasks/reactjs/collective_blog.md)
+* [Фронтенд для Youtube](tasks/reactjs/YoutubeFrontend.md)
 
 ## VueJS
 
-* [Фронтенд для Youtube](tasks/vuejs/collective_blog.md)
+* [Фронтенд для Youtube](tasks/vuejs/YoutubeFrontend.md)
 
 # Курсы
 
