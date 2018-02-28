@@ -20,6 +20,14 @@
 
 * [Коллективный блог](tasks/python/collective_blog.md)
 
+## ReactJS
+
+* [Фронтенд для Youtube](tasks/reactjs/collective_blog.md)
+
+## VueJS
+
+* [Фронтенд для Youtube](tasks/vuejs/collective_blog.md)
+
 # Курсы
 
 Подборка бесплатных курсов по программированию и не только
