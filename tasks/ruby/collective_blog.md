@@ -101,15 +101,6 @@
 
 *Все команды нужно выполнять при помощи приложения "Терминал".*
 
-#### zsh и oh-my-zsh
-
-zsh и oh-my-zsh сделают работу в консоли во много раз удобнее
-
-1. `sudo apt install zsh`
-2. `sudo apt install curl wget git`
-3. `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-4. `sudo chsh -s $(which zsh) ваше_имя_пользователя`
-
 #### Atom
 
 Atom - удобный текстовый редактор с кучей полезных плагинов
