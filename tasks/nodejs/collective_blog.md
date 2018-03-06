@@ -276,7 +276,7 @@ DATABASE_URL=postgres://postgres@localhost/blog
 
 ### Запуск миграций
 
-`sequelize db:migrate`, ничего интересного
+`foreman run sequelize db:migrate`, ничего интересного
 
 ### Модель пользователя: хеширование пароля
 

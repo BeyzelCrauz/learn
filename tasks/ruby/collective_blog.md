@@ -201,7 +201,7 @@ DATABASE_URL=postgres://postgres@localhost/blog
 ### Создание БД
 
 ```
-rails db:create
+foreman run rails db:create
 ```
 
 ### Генерация моделей и заготовок контроллеров
@@ -210,7 +210,7 @@ rails db:create
 
 ### Запуск миграций
 
-`rails db:migrate`
+`foreman run rails db:migrate`
 
 ### Bootstrap
 
