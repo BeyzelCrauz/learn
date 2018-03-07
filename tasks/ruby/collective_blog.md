@@ -10,6 +10,7 @@
 * PostgreSQL, при разработке тоже
 * Devise и CanCanCan
 * Kaminari
+* Redcarpet
 * Git и GitHub
 * Rubocop с [вот этим конфигом](https://github.com/SibdevCompany/learn/blob/master/dotfiles/ruby/.rubocop.yml)
 * bootstrap_form
@@ -242,7 +243,7 @@ foreman run rails db:create
 
 Добавьте вывод постов на главную и страницу с одним постом. Не забудьте, что кнопки "редактировать" и "удалить" должны показываться только автору поста и администраторам.
 
-Используйте Kaminari для пагинации.
+Используйте Kaminari для пагинации и Redcarpet с параметром filter_html для вывода Markdown.
 
 ### Страница редактирования поста и удаление
 
