@@ -223,7 +223,7 @@ foreman run rails db:create
 
 ### Bootstrap
 
-В application_layout подключите Bootstrap 4 через bootstrapcdn.
+В layouts/application подключите Bootstrap 4 через bootstrapcdn.
 
 Сделайте базовый шаблон, с шапкой и контентом по центру.
 
