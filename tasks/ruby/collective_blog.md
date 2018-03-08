@@ -219,6 +219,8 @@ foreman run rails db:create
 
 Покажите миграции проверяющему и если всё ок - примените их.
 
+В routes поставьте root на экшен index контроллера posts.
+
 ### Bootstrap
 
 В application_layout подключите Bootstrap 4 через bootstrapcdn.
